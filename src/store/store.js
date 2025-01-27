@@ -11,6 +11,6 @@ const rootReducer=combineReducers({
 
 export const store=createStore(rootReducer,window.__REDUX_DEVTOOLS_EXTENSION__?.())
 
-store.subscribe(()=>{
-    console.warn("subscribed--called",store.getState())
-})
+// store.subscribe(()=>{
+//     console.warn("subscribed--called",store.getState())
+// })

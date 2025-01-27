@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 import "./cart.css"
 import { useEffect, useState } from "react"
 import CartList from "../cartList/CartList"
-import { store } from "../../store/store"
+
 export default function Cart(){
 
     
@@ -33,7 +33,7 @@ export default function Cart(){
                         cartItems.map((v,i)=>{
                             return <CartList key={i} data={v} />
                         })
-                    ):(<h1> Cart is empty</h1>)
+                    ):(<h1 className="text-white"> Cart is empty</h1>)
                 }
             </div>
             <div className="bg-amber-300 w-full max-w-[800px] mt-2 h-12 flex items-center justify-end pr-20">
