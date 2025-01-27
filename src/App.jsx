@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
-import Navbar from './components/navbar/Navbar'
-import Card from './components/card/card'
+
+import Card from './components/card/Card'
 import { FaHeart } from "react-icons/fa";
 
 function App() {
