@@ -13,6 +13,7 @@
 .home-body{
   height: 92vh;
   overflow-y: scroll;
+
 }
 .home-body::-webkit-scrollbar{
   display: none;

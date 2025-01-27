@@ -7,7 +7,7 @@ export default function({data}){
 
     return (
         <div className=" list h-20 flex justify-between pr-2 pt-2 pb-2 pl-2 items-center bg-white  cursor-pointer select-none">
-            <img className="w-20 h-full" src={data.image}></img>
+            <img className="w-20 h-full object-contain" src={data.image}></img>
             <span className=" w-28 m-w-28 h-full overflow-hidden text-ellipsis break-word text-xs  grid items-center " >{data.title}</span>
             <div className="w-18 flex items-center justify-center gap-1.5">
                 <button onClick={()=>{

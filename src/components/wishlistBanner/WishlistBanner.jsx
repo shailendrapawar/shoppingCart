@@ -8,7 +8,7 @@ export default function WishlistBanner({data}) {
 
     return (
         <>
-            <div className="w-full h-24 bg-white flex justify-between items-center pl-2 pr-4">
+            <div className="w-full h-24 bg-white flex justify-between items-center pl-2 pr-4 rounded-md">
                 <img className="h-20 w-24  object-contain " src={data.image}></img>
                 <span className="text-black h-20 min-w-20 w-1/2 text-xs grid items-center">{data.title}
                 <i>${data.price}</i>

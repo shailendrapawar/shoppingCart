@@ -25,15 +25,9 @@ export default function Cart(){
 
 
     return (
-        <div className="cart-body bg-slate-300 text-black">
+        <div className="cart-body  text-black">
             <div></div>
-            <div className="cart-list-body mt-10 flex flex-col gap-1 bg-slate-300 p-1 justify-center">
-                {/* {
-                    cartItems!=[]?cartItems.map((v,i)=>{
-                        return <CartList data={v} key={i} />
-                    }): <h1>data not availbale</h1>
-                } */}
-
+            <div className="cart-list-body mt-10 flex flex-col gap-1  p-1 justify-center">
                 {
                     cartItems.length>0?(
                         cartItems.map((v,i)=>{
@@ -42,8 +36,8 @@ export default function Cart(){
                     ):(<h1> Cart is empty</h1>)
                 }
             </div>
-            <div className="bg-amber-300 w-full mt-2 h-12 flex items-center justify-end pr-20">
-                <section>TOTAL: <b className=""> ${price}</b> </section>
+            <div className="bg-amber-300 w-full max-w-[800px] mt-2 h-12 flex items-center justify-end pr-20">
+                <section className="">TOTAL: <b className=""> ${price}</b> </section>
             </div>
         </div>
     )
