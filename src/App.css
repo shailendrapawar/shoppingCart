@@ -11,12 +11,10 @@
 }
 
 .home-body{
-  height: 92vh;
+  height: 91vh;
   overflow-y: scroll;
 
 }
 .home-body::-webkit-scrollbar{
   display: none;
-
-
 }
