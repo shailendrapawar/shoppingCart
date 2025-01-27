@@ -1,0 +1,9 @@
+.card-body{
+    width: 250px;
+    height: 200px;
+}
+
+button:active{
+    transform: scale(0.9);
+
+}

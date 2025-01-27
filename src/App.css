@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+.layout-body{
+  width: 100%;
+  height: 92vh;
+  /* overflow-y: hidden; */
+}
+
+.home-body{
+  height: 92vh;
+  overflow-y: scroll;
+}
+.home-body::-webkit-scrollbar{
+  display: none;
+
+
+}
